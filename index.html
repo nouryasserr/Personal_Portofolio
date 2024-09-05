@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav
+      class="navbar navbar-expand-lg shadow fixed-top"
+      aria-label="Tenth navbar example"
+    >
+      <div class="container-md">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample08"
+          aria-controls="navbarsExample08"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-md-center"
+          id="navbarsExample08"
+        >
+          <ul class="navbar-nav gap-lg-4">
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#projects">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end-navigation -->
+    <!-- about -->
+    <section class="info">
+      <div
+        class="info-head container-md d-flex flex-column gap-3 justify-content-center align-items-center"
+      >
+        <div>
+          <h1 class="text-center">Hi! I'm Nour Yasser</h1>
+          <h2 class="text-center">- Front-end Developer -</h2>
+        </div>
+        <p class="text-center">
+          A passionate front-end developer with a keen eye for detail and a love
+          for creating beautiful, user-friendly websites. I bring ideas to life
+          by transforming design concepts into fully functional and responsive
+          web applications. My goal is to craft seamless digital experiences
+          that leave a lasting impression on users.
+        </p>
+        <div class="d-flex gap-4">
+          <a href="https://github.com/nouryasserr " class="acc"
+            ><i class="fa-brands fa-github"></i></a
+          ><a
+            href="https://www.linkedin.com/in/nour-yasser-a49568236/"
+            class="acc"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="tel:+20 101 959 0580" class="acc"
+            ><i class="fa-solid fa-phone"></i
+          ></a>
+          <a href="mailto:nouryasser181@gmail.com" class="acc"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+      <div id="about" class="container-md">
+        <div
+          class="d-flex flex-wrap p-3 ps-sm-5 align-items-center justify-content-between rounded-3 border shadow-lg bg-light"
+        >
+          <div class="col-lg-6">
+            <div class="reverse">
+              <hr />
+              <h6>- about me</h6>
+            </div>
+            <h3>Need Creative Design?</h3>
+            <h3>I Can Help You!</h3>
+            <p class="lead">
+              With a background in Business Information Systems and hands-on
+              experience in front-end development, I specialize in building
+              visually appealing and intuitive interfaces. From working on
+              real-world projects, such as creating websites for businesses, to
+              continuously enhancing my skills, I am driven by my desire to stay
+              at the forefront of modern web development. I am always eager to
+              take on new challenges, adapt to different project needs, and turn
+              creative visions into reality.
+            </p>
+            <div
+              class="about-btns d-grid gap-2 d-flex justify-content-start mb-4 mb-lg-3"
+            >
+              <a
+                href="assets/Nour_Yasser_CV.pdf"
+                type="button"
+                class="btn btn-lg px-4 me-md-2"
+              >
+                Download CV
+              </a>
+              <a href="#skills" type="button" class="btn btn-lg px-4 none-btn">
+                Learn more
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="rounded-3 rounded-lg-3 shadow-sm"
+              src="assets/profile.png"
+              alt="profile"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-about -->
+    <!-- services -->
+    <section id="services">
+      <div class="container-md" id="featured-3">
+        <h4 class="pb-2">- Services I Provide</h4>
+        <div class="row g-4 py-2 row-cols-1 row-cols-lg-3">
+          <div class="feature col bg-gradient pt-2">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-3 mb-3 p-2"
+            >
+              <svg
+                class="bi"
+                width="1em"
+                height="1em"
+                fill="#ebeef2"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 396.494 396.494"
+                xml:space="preserve"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <path
+                      d="M304.42,330.901h-43.219c-1.56,0-2.834-1.273-2.834-2.834v-10.52c0-1.559-1.275-2.834-2.834-2.834h-60.475 c-1.56,0-2.835,1.275-2.835,2.834v10.52c0,1.561-1.275,2.834-2.835,2.834h-32.491c-1.56,0-2.835,1.275-2.835,2.834v12.17 c0,1.559,1.275,2.834,2.835,2.834h147.521c1.559,0,2.834-1.275,2.834-2.834v-12.17C307.254,332.179,305.979,330.901,304.42,330.901 z"
+                    ></path>
+                    <g>
+                      <path
+                        d="M377.032,46.368h-308.4c-10.73,0-19.459,8.73-19.459,19.462c0,0,0,37.109,0,50.761c0,6.711-0.498,7.66,4.004,7.66 c2.391,0,5.039,0,7.72,0c3.778,0,3.003-0.949,3.003-7.785c0-13.621,0-50.636,0-50.636c0-2.565,2.168-4.733,4.732-4.733h308.4 c2.563,0,4.731,2.168,4.731,4.733v189.999h-219.87c0,0-7.749-0.014-7.749,10.006c0,5.941,0,17.823,0,23.766 c0,10.006,8,10.006,8,10.006h214.888c10.729,0,19.461-8.729,19.461-19.459V65.83C396.493,55.099,387.763,46.368,377.032,46.368z M222.833,282.804c-4.845,0-8.771-3.926-8.771-8.768s3.926-8.77,8.771-8.77c4.84,0,8.767,3.928,8.767,8.77 S227.673,282.804,222.833,282.804z"
+                      ></path>
+                      <path
+                        d="M124.125,141.633H12.559C5.632,141.633,0,147.266,0,154.193v183.372c0,6.926,5.632,12.561,12.559,12.561h111.566 c6.923,0,12.559-5.635,12.559-12.561V154.193C136.684,147.266,131.048,141.633,124.125,141.633z M54.58,154.443h27.523 c1.313,0,2.38,1.064,2.38,2.381c0,1.314-1.066,2.379-2.38,2.379H54.58c-1.315,0-2.379-1.065-2.379-2.379 C52.201,155.507,53.265,154.443,54.58,154.443z M68.175,341.304c-3.59,0-6.5-2.91-6.5-6.5s2.91-6.5,6.5-6.5s6.5,2.91,6.5,6.5 S71.765,341.304,68.175,341.304z M125.893,322.2c0,1.676-1.342,3.047-2.98,3.047H13.774c-1.639,0-2.98-1.371-2.98-3.047V169.825 c0-1.676,1.342-3.046,2.98-3.046h109.139c1.639,0,2.98,1.371,2.98,3.046V322.2z"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <h5>Responsive Web Design</h5>
+            <p class="feature-p">
+              I create responsive and optimized websites and web apps for all
+              devices, ensuring seamless user experiences across desktops,
+              tablets, and mobile phones. Using the latest CSS techniques, I
+              deliver designs that adapt perfectly to different screen sizes
+              while maintaining high performance.
+            </p>
+          </div>
+          <div class="feature col bg-gradient pt-2">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-3 mb-3 p-2"
+            >
+              <svg
+                class="bi"
+                width="1em"
+                height="1em"
+                fill="#ebeef2"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 32 32"
+                xml:space="preserve"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    id="user--interface_1_"
+                    d="M29,3.5C29,3.776,28.776,4,28.5,4S28,3.776,28,3.5S28.224,3,28.5,3S29,3.224,29,3.5 M26.5,3 C26.224,3,26,3.224,26,3.5S26.224,4,26.5,4S27,3.776,27,3.5S26.776,3,26.5,3 M24.5,3C24.224,3,24,3.224,24,3.5S24.224,4,24.5,4 S25,3.776,25,3.5S24.776,3,24.5,3 M31,30.36H1c-0.199,0-0.36-0.161-0.36-0.36V2c0-0.199,0.161-0.36,0.36-0.36h30 c0.199,0,0.36,0.161,0.36,0.36v28C31.36,30.199,31.199,30.36,31,30.36z M1.36,29.64h29.28V5.36H1.36V29.64z M1.36,4.64h29.28V2.36 H1.36V4.64z M15,25.36h-5c-0.199,0-0.36-0.161-0.36-0.36v-3c0-0.199,0.161-0.36,0.36-0.36h5c0.199,0,0.36,0.161,0.36,0.36v3 C15.36,25.199,15.199,25.36,15,25.36z M10.36,24.64h4.28v-2.28h-4.28C10.36,22.36,10.36,24.64,10.36,24.64z M22,20.36h-5 c-0.199,0-0.36-0.161-0.36-0.36v-3c0-0.199,0.161-0.36,0.36-0.36h5c0.199,0,0.36,0.161,0.36,0.36v3 C22.36,20.199,22.199,20.36,22,20.36z M17.36,19.64h4.279v-2.28H17.36V19.64z M15,20.36h-5c-0.199,0-0.36-0.161-0.36-0.36v-3 c0-0.199,0.161-0.36,0.36-0.36h5c0.199,0,0.36,0.161,0.36,0.36v3C15.36,20.199,15.199,20.36,15,20.36z M10.36,19.64h4.28v-2.28 h-4.28C10.36,17.36,10.36,19.64,10.36,19.64z M22,15.36h-5c-0.199,0-0.36-0.161-0.36-0.36v-3c0-0.199,0.161-0.36,0.36-0.36h5 c0.199,0,0.36,0.161,0.36,0.36v3C22.36,15.199,22.199,15.36,22,15.36z M17.36,14.64h4.279v-2.28H17.36V14.64z M15,15.36h-5 c-0.199,0-0.36-0.161-0.36-0.36v-3c0-0.199,0.161-0.36,0.36-0.36h5c0.199,0,0.36,0.161,0.36,0.36v3 C15.36,15.199,15.199,15.36,15,15.36z M10.36,14.64h4.28v-2.28h-4.28C10.36,12.36,10.36,14.64,10.36,14.64z M8,15.36H3 c-0.199,0-0.36-0.161-0.36-0.36v-3c0-0.199,0.161-0.36,0.36-0.36h5c0.199,0,0.36,0.161,0.36,0.36v3C8.36,15.199,8.199,15.36,8,15.36 z M3.36,14.64h4.28v-2.28H3.36V14.64z M29,10.36h-5c-0.199,0-0.36-0.161-0.36-0.36V7c0-0.199,0.161-0.36,0.36-0.36h5 c0.199,0,0.36,0.161,0.36,0.36v3C29.36,10.199,29.199,10.36,29,10.36z M24.36,9.64h4.279V7.36H24.36V9.64z M22,10.36h-5 c-0.199,0-0.36-0.161-0.36-0.36V7c0-0.199,0.161-0.36,0.36-0.36h5c0.199,0,0.36,0.161,0.36,0.36v3 C22.36,10.199,22.199,10.36,22,10.36z M17.36,9.64h4.279V7.36H17.36V9.64z M15,10.36h-5c-0.199,0-0.36-0.161-0.36-0.36V7 c0-0.199,0.161-0.36,0.36-0.36h5c0.199,0,0.36,0.161,0.36,0.36v3C15.36,10.199,15.199,10.36,15,10.36z M10.36,9.64h4.28V7.36h-4.28 C10.36,7.36,10.36,9.64,10.36,9.64z M8,10.36H3c-0.199,0-0.36-0.161-0.36-0.36V7c0-0.199,0.161-0.36,0.36-0.36h5 c0.199,0,0.36,0.161,0.36,0.36v3C8.36,10.199,8.199,10.36,8,10.36z M3.36,9.64h4.28V7.36H3.36V9.64z"
+                  ></path>
+                  <rect
+                    id="_Transparent_Rectangle"
+                    style="fill: none"
+                    width="32"
+                    height="32"
+                  ></rect>
+                </g>
+              </svg>
+            </div>
+            <h5>Custom UI/UX Development</h5>
+            <p class="feature-p">
+              I focus on designing and developing user-friendly interfaces with
+              a deep understanding of user experience principles. From
+              wireframes to polished designs, I build visually appealing and
+              interactive components that provide intuitive, engaging, and
+              accessible digital experiences.
+            </p>
+          </div>
+          <div class="feature col bg-gradient pt-2">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-3 mb-3 p-2"
+            >
+              <svg
+                class="bi"
+                width="1em"
+                height="1em"
+                version="1.1"
+                id="_x32_"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 512 512"
+                xml:space="preserve"
+                fill="#ebeef2"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <rect
+                      x="56"
+                      y="317.484"
+                      class="st0"
+                      width="80"
+                      height="146.516"
+                    ></rect>
+                    <rect
+                      x="176"
+                      y="237.484"
+                      class="st0"
+                      width="80"
+                      height="226.516"
+                    ></rect>
+                    <rect
+                      x="296"
+                      y="141.484"
+                      class="st0"
+                      width="80"
+                      height="322.516"
+                    ></rect>
+                    <rect
+                      x="416"
+                      y="45.484"
+                      class="st0"
+                      width="80"
+                      height="418.516"
+                    ></rect>
+                    <polygon
+                      class="st0"
+                      points="16,496 16,0 0,0 0,496 0,512 16,512 512,512 512,496 "
+                    ></polygon>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <h5>Performance Optimization</h5>
+            <p class="feature-p">
+              I prioritize performance optimization to ensure fast loading times
+              and efficient code, combining this with SEO best practices to
+              enhance search engine visibility. This approach helps clients
+              reach their audience effectively while maintaining top-notch
+              quality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-services -->
+    <!-- skills -->
+    <section id="skills">
+      <div class="container-md">
+        <h4 class="pb-2">- Technical Skills</h4>
+        <div class="d-flex gap-md-5 my-4 flex-md-row flex-column">
+          <div class="left">
+            <div class="py-3">
+              <h5>Html/CSS</h5>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 23px high"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 23px"
+              >
+                <div class="progress-bar" style="width: 90%">90%</div>
+              </div>
+            </div>
+            <div class="py-3 py-2">
+              <h5>JavaScript / ES6+</h5>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 25px high"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 25px"
+              >
+                <div class="progress-bar" style="width: 70%">70%</div>
+              </div>
+            </div>
+            <div class="py-3">
+              <h5>Bootstrap</h5>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 23px high"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 23px"
+              >
+                <div class="progress-bar" style="width: 80%">80%</div>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="py-3">
+              <h5>React</h5>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 23px high"
+                aria-valuenow="30"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 23px"
+              >
+                <div class="progress-bar" style="width: 30%">30%</div>
+              </div>
+            </div>
+            <div class="py-3">
+              <h5>PHP</h5>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 23px high"
+                aria-valuenow="65"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 23px"
+              >
+                <div class="progress-bar" style="width: 65%">65%</div>
+              </div>
+            </div>
+            <div class="py-3">
+              <h5>/My SQL</h5>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 23px high"
+                aria-valuenow="65"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 23px"
+              >
+                <div class="progress-bar" style="width: 65%">65%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-skills -->
+    <!-- projects -->
+    <section id="projects">
+      <div class="container-md">
+        <h4 class="pb-2">- Projects</h4>
+        <div class="album py-5 bg-body-tertiary">
+          <div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    src="assets/rcco.png"
+                    alt="project"
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      A responsive site showcasing outstanding real estate
+                      projects, allowing customers to explore and inquire about
+                      properties with ease.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="https://nouryasserr.github.io/araco/"
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </a>
+                        <a
+                          href="tel:+20 101 959 0580"
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Contact
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    src="assets/ldx.png"
+                    alt="project"
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      A website offering access to over 400 courses, designed to
+                      help users easily find, browse, and enroll in learning
+                      opportunities.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="https://nouryasserr.github.io/LDX/"
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </a>
+                        <a
+                          href="tel:+20 101 959 0580"
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Contact
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    src="assets/xproject.png"
+                    alt="project"
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      A platform dedicated to highlighting X-Project's impact,
+                      featuring detailed content and engaging visuals about the
+                      student-led activity.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="https://nouryasserr.github.io/x-project/"
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </a>
+                        <a
+                          href="tel:+20 101 959 0580"
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Contact
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    src="assets/coffeeo.png"
+                    alt="project"
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      A responsive landing page for an online coffee store,
+                      featuring a user-friendly interface that encourages
+                      browsing and purchasing.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="https://nouryasserr.github.io/PRODIGY_WD_01/"
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </a>
+                        <a
+                          href="tel:+20 101 959 0580"
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Contact
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    src="assets/stopwatch.png"
+                    alt="project"
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      A reliable stopwatch web app with start, pause, reset, and
+                      lap features, designed with an intuitive and sleek
+                      interface for ease of use.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="https://nouryasserr.github.io/PRODIGY_WD_02/"
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </a>
+                        <a
+                          href="tel:+20 101 959 0580"
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Contact
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    src="assets/tictactoe.png"
+                    alt="project"
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      A Tic-Tac-Toe web app that tracks the game state, checks
+                      for winning conditions, and provides a smooth, interactive
+                      experience.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="https://nouryasserr.github.io/PRODIGY-WD-03/"
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </a>
+                        <a
+                          href="tel:+20 101 959 0580"
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Contact
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-projects -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
