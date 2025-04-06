@@ -7,7 +7,7 @@ features.forEach((feature) => {
   const svgIcons = featureIcon ? featureIcon.querySelectorAll("svg") : [];
 
   feature.addEventListener("mouseover", () => {
-    feature.style.backgroundColor = "#2e3207";
+    feature.style.backgroundColor = "#732626";
     feature.style.color = "#ebeef2";
     feature.style.borderRadius = "10px";
 
@@ -20,7 +20,7 @@ features.forEach((feature) => {
     }
 
     svgIcons.forEach((svg) => {
-      svg.style.fill = "#2e3207";
+      svg.style.fill = "#732626";
     });
   });
 
@@ -30,7 +30,7 @@ features.forEach((feature) => {
     feature.style.borderRadius = "0px";
 
     if (featureIcon) {
-      featureIcon.style.backgroundColor = "#2e3207";
+      featureIcon.style.backgroundColor = "#732626";
     }
 
     if (featureP) {

@@ -7,12 +7,12 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-h2 {
-  color: #640f0d;
+h1 {
+  color: #401b0e;
 }
 h4 {
-  color: #640f0d;
-  border-bottom: 1px solid #640f0d;
+  color: #401b0e;
+  border-bottom: 1px solid #401b0e;
 }
 h6 {
   margin: 0;
@@ -22,16 +22,19 @@ p {
 }
 /* navigation */
 nav {
-  background-color: #2e3207;
+  background-color: #ebeef2;
 }
 .nav-link {
-  color: #ebeef2;
+  color: #0d0d0d;
   text-align: center;
   transition: 0.5s;
 }
+.nav-link:hover {
+  color: #732626;
+}
 .navbar-toggler,
 .navbar-toggler-icon {
-  color: #ebeef2 !important;
+  color: #0d0d0d !important;
 }
 /* end-navigation */
 /* about */
@@ -53,8 +56,8 @@ nav {
 .acc {
   color: #ebeef2;
   font-size: 22px;
-  background-color: #640f0d;
-  border: 1px solid #640f0d;
+  background-color: #732626;
+  border: 1px solid #732626;
   border-radius: 50%;
   width: 45px;
   height: 45px;
@@ -62,7 +65,7 @@ nav {
 }
 .acc:hover {
   background-color: transparent;
-  color: #640f0d;
+  color: #732626;
 }
 .acc i {
   position: relative;
@@ -77,33 +80,33 @@ nav {
   top: 25px;
   transform-origin: 0 0;
   transform: rotate(90deg);
-  color: #640f0d;
+  color: #732626;
 }
 hr {
   margin: 0;
-  border: 1px solid #640f0d;
+  border: 1px solid #732626;
   opacity: 1;
 }
 .about-btns {
   width: fit-content;
 }
 .about-btns a:nth-child(1) {
-  background-color: #2e3207;
+  background-color: #732626;
   color: #ebeef2;
   transition: 1s;
 }
 .about-btns a:nth-child(1):hover {
   background-color: transparent;
-  border-color: #2e3207;
+  border-color: #732626;
   color: #0d0d0d;
 }
 .about-btns a:nth-child(2) {
-  border-color: #2e3207;
+  border-color: #732626;
   color: #0d0d0d;
   transition: 1s;
 }
 .about-btns a:nth-child(2):hover {
-  background-color: #2e3207;
+  background-color: #732626;
   color: #ebeef2;
 }
 #about img {
@@ -117,7 +120,7 @@ hr {
   margin-bottom: 100px;
 }
 .feature-icon {
-  background-color: #2e3207;
+  background-color: #732626;
   border-radius: 10px 10px 0;
 }
 /* end-services */
@@ -127,7 +130,7 @@ hr {
   width: 50%;
 }
 .progress-bar {
-  background-color: #640f0d;
+  background-color: #732626;
 }
 /* end-skills */
 /* projects */
@@ -135,7 +138,8 @@ hr {
   margin-top: 100px;
 }
 #projects a:hover {
-  background-color: #2e3207;
+  background-color: #732626;
+  border-color: #732626;
 }
 /* end-projects */
 /* responsive */
